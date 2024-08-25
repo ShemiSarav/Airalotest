@@ -26,7 +26,8 @@ export default defineConfig({
   use: {
     video: {mode: "on", size: {height:1080,width:1920}},
     viewport: { height: 1080, width: 1920 },
-    screenshot: { fullpage:true, mode:"on"},
+    screenshot: { fullPage:true, mode:"on"},
+
     /* Base URL to use in actions like `await page.goto('/')`. */
     // baseURL: 'http://127.0.0.1:3000',
 
